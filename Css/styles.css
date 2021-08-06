@@ -1,0 +1,127 @@
+h1{
+  font-size: 3.5rem;
+  padding: 4% 0 0 8%;
+  font-family: 'Contrail One', cursive;
+}
+.background{
+  width:100%;
+  height: 750px;
+  background-image: url("image/bg.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.navname{
+  font-size: 3rem;
+
+}
+.top{
+  font-size: 2rem;
+}
+
+.top-cont{
+  font-family: 'Comfortaa', cursive;
+  font-weight: 200;
+  text-shadow: 2px 2px #CDBBA7;
+  font-size: 2.7rem;
+  padding: 14% 0 0 5%;
+  color: #2C2E43;
+
+}
+
+.About{
+
+  width: 100%;
+  height:600px;
+  background-image: linear-gradient(140deg ,#B05B3B,#CC9B6D,#D79771);
+}
+.about1{
+  padding: 2% 0 0 6%;
+  font-size: 2rem;
+  width: 44%;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+.frame{
+  position: absolute;
+  top:880px;
+  right: 100px;
+  border-radius: 10px;
+
+  width:40%
+}
+.Donate{
+  background-color: #E7E6E1;
+}
+.donatebg{
+  font-size: 3rem;
+  padding: 3% 0 0 6%;
+}
+form{
+  position:absolute;
+  left: 400px;
+  top: 1610px;
+
+
+}
+
+
+#footer{
+  text-align:center;
+  padding: 1px 1px;
+
+}
+.footer-p{
+  word-spacing:10px;
+  color: black;
+}
+.linear-wipe {
+
+
+  font-size: 5rem;
+  background: linear-gradient(to right,grey,black,grey,black,grey,black);
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 2s linear infinite;
+
+
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
+
+
+@media (max-width:1028px) {
+  .top-cont{
+   font-size: 2rem;
+    padding-top: 17%;
+  }
+  .background{
+    height:300px;
+    background-size: contain;
+  }
+  .about1{
+    align-items: center;
+    font-size: 1.5rem;
+    width: 70%;
+  }
+  form{
+    position:absolute;
+    left: 200px;
+    top: 1155px;
+  }
+  .frame{
+    visibility: hidden;
+
+  }
+.donatebg{
+  font-size: 2.3rem;
+}
+}
