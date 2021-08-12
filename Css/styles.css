@@ -56,19 +56,21 @@ p{
   text-align: center;
   background-color: #E7E6E1;
   height: 350px;
-
-
-
+}
 
 #footer{
   text-align:center;
   padding: 1px 1px;
+  font-size: 1rem;
 
 }
+
 .footer-p{
   word-spacing:10px;
   color: black;
+font-size: 1rem;
 }
+
 
 
 .linear-wipe {
