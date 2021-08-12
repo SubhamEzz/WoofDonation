@@ -100,47 +100,45 @@ font-size: 1rem;
 @media (max-width:1028px) {
   body{
 
-      width: 59%;
+      width: 100%;
   }
   h1{
     font-size: 2rem;
   }
   p{
-      font-size: 0.9rem;
+      font-size: 1.3rem;
   }
+    .navname{
+      font-size: 1.4em;
+    }
+
   .background1{
 
     height:30%;
     background-size: contain;
   }
 
-  .navname{
-    font-size: 1.5rem;
-    position: absolute;
-    top:-8px;
-    left: -40px;
-  }
-  .navbar-toggler-icon{
-    visibility: hidden;
-  }
-  .top-cont{
 
-    width: 127%;
-    padding-left: 1%;
-    padding-top: 15%;
+
+  .top-cont{
+    text-align: center;
+    padding: 0;
   }
   .About{
-    margin-top: -16px;
+    margin-top: -28px;
 
     height:300px;
   }
 
   .about1{
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 1rem;
      width: 90%;
   }
+  .Donate{
 
+    height: 230px;
+  }
   .donatebg{
     font-size: 0.5rem;
 
