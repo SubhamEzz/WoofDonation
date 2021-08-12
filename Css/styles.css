@@ -3,6 +3,9 @@ h1{
   padding: 4% 0 0 8%;
   font-family: 'Contrail One', cursive;
 }
+p{
+  font-size: 2.5rem;
+}
 .background{
   width:100%;
   height: 750px;
@@ -50,19 +53,11 @@ h1{
   width:40%
 }
 .Donate{
+  text-align: center;
   background-color: #E7E6E1;
-}
-.donatebg{
-  font-size: 3rem;
-  padding: 3% 0 0 6%;
-}
-form{
-  position:absolute;
-  left: 400px;
-  top: 1610px;
+  height: 350px;
 
 
-}
 
 
 #footer{
@@ -74,10 +69,12 @@ form{
   word-spacing:10px;
   color: black;
 }
+
+
 .linear-wipe {
 
 
-  font-size: 5rem;
+  font-size: 2rem;
   background: linear-gradient(to right,grey,black,grey,black,grey,black);
   background-size: 200% auto;
 
@@ -99,23 +96,52 @@ form{
 
 
 @media (max-width:1028px) {
-  .top-cont{
-   font-size: 2rem;
-    padding-top: 17%;
+  body{
+
+      width: 59%;
   }
-  .background{
-    height:300px;
+  h1{
+    font-size: 2rem;
+  }
+  p{
+      font-size: 0.9rem;
+  }
+  .background1{
+
+    height:30%;
     background-size: contain;
   }
-  .about1{
-    align-items: center;
+
+  .navname{
     font-size: 1.5rem;
-    width: 70%;
+    position: absolute;
+    top:-8px;
+    left: -40px;
   }
-  form{
-    position:absolute;
-    left: 200px;
-    top: 1155px;
+  .navbar-toggler-icon{
+    visibility: hidden;
+  }
+  .top-cont{
+
+    width: 127%;
+    padding-left: 1%;
+    padding-top: 15%;
+  }
+  .About{
+    margin-top: -16px;
+
+    height:300px;
+  }
+
+  .about1{
+    text-align: center;
+    font-size: 0.9rem;
+     width: 90%;
+  }
+
+  .donatebg{
+    font-size: 0.5rem;
+
   }
   .frame{
     visibility: hidden;
