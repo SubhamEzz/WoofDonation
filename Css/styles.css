@@ -100,7 +100,7 @@ font-size: 1rem;
 @media (max-width:1028px) {
   body{
 
-      width: 59%;
+      width: 100%;
   }
   h1{
     font-size: 2rem;
