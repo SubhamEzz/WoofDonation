@@ -60,7 +60,7 @@ p{
 
 #footer{
   text-align:center;
-  padding: 1px 1px;
+  padding: 1px;
   font-size: 1rem;
 
 }
@@ -68,7 +68,8 @@ p{
 .footer-p{
   word-spacing:10px;
   color: black;
-font-size: 1rem;
+ font-size: 1rem;
+
 }
 
 
@@ -108,6 +109,10 @@ font-size: 1rem;
   p{
       font-size: 1.3rem;
   }
+  .background{
+   background-image: linear-gradient(140deg ,#B05B3B,#CC9B6D,#D79771);
+
+  }
     .navname{
       font-size: 1.4em;
     }
@@ -125,7 +130,7 @@ font-size: 1rem;
     padding: 0;
   }
   .About{
-    margin-top: -28px;
+    margin-top: -23px;
 
     height:300px;
   }
@@ -149,5 +154,8 @@ font-size: 1rem;
   }
 .donatebg{
   font-size: 2.3rem;
+}
+#footer{
+
 }
 }
